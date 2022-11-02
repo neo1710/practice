@@ -1,0 +1,6 @@
+function prime(num){
+for(a=0;a<=num.length-1;a++){
+if(num%a===0){return true}
+}return false
+}
+prime(13)
